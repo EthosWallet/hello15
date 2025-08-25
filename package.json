@@ -6,7 +6,6 @@
   "workspaces": [
     "frontend",
     "backend",
-    "shared-libs/*"
   ],
   "devDependencies": {
     "eslint": "^8.0.0"
