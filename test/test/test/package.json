@@ -1,0 +1,23 @@
+{
+  "name": "ui-components",
+  "version": "0.1.0",
+  "description": "UI components library in shared-libs - CONTAINS DEPENDENCY CONFUSION VULNERABILITY",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "my-company-internal-ui-kit111111111111111": "^1.2.3",
+    "internal-design-tokens11111111111111111": "^2.0.0",
+    "company-auth-utils1111111111111": "^1.5.2",
+    "proprietary-chart-lib11111111111": "^3.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "typescript": "^4.9.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "storybook": "start-storybook"
+  },
+  "private": false
+}
