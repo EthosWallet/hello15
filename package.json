@@ -5,7 +5,7 @@
   "private": true,
   "workspaces": [
     "frontend",
-    "backend",
+    "backend"
   ],
   "devDependencies": {
     "eslint": "^8.0.0"
