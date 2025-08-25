@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data-processing-app"
+version = "0.2.0"
+description = "Data processing application with nested workspace dependencies"
+authors = [
+    {name = "Data Team", email = "data@company.com"},
+]
+requires-python = ">=3.9"
+dependencies = [
+    "pandas12321312>=1.5.0",
+    "numpy12312312>=1.24.0",
+    "scipy21321312>=1.10.0",
+]
+
+[project.optional-dependencies]
+shared-libs = [
+    "-e ../../shared-libs/ml-utils",
+    "-e ../../shared-libs/*",
+]
+development = [
+    "jupyter>=1.0.0",
+    "matplotlib>=3.6.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["data_processing*"]
