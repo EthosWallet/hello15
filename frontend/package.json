@@ -5,7 +5,7 @@
   "private": true,
   "workspaces": [
     "../shared-libs/*",
-    "../external-deps/vendor"
+    "../shared-libs/ui-components"
   ],
   "dependencies": {
     "react123123123123123123": "^18.0.0",
