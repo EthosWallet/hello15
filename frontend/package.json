@@ -1,0 +1,21 @@
+{
+  "name": "frontend-app",
+  "version": "1.0.0",
+  "description": "Frontend application with nested workspaces",
+  "private": true,
+  "workspaces": [
+    "../shared-libs/*",
+    "../external-deps/vendor"
+  ],
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0"
+  },
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode production"
+  }
+}
