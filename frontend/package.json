@@ -4,7 +4,6 @@
   "description": "Frontend application with nested workspaces",
   "private": true,
   "workspaces": [
-    "../shared-libs/*",
     "../shared-libs/ui-components"
   ],
   "dependencies": {
